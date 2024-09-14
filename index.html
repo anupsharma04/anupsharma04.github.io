@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anup Sharma</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+  header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;  /* Ensure the header stays on top of other elements */
+}
+    .nav-link {
+      padding: 10px 15px;
+      display: inline-block;
+      width: auto;
+    }
+    .want{
+      text-align: center;
+    }
+    .nav-link:hover {
+      background-color: #1a202c;
+      color: #a0aec0;
+      transition: all 0.3s ease;
+    }
+    .justified-text { 
+      text-align: justify;
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    .footer-link:hover {
+      color: #a0aec0;
+      transition: all 0.3s ease;
+    }
+    .footer-svg {
+      transition: all 0.3s ease;
+    }
+    .footer-svg:hover {
+      fill: #a0aec0;
+    }
+    .experience-title {
+      text-decoration: underline;
+      text-underline-offset: 0.25em;
+      text-decoration-color: #a0aec0;
+      text-decoration-thickness: 2px;
+    }
+    .title-font {
+      color: #2d3748;
+      text-shadow: 2px 2px 4px #cbd5e0;
+    }
+    .btn {
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+
+<body>
+
+
+  <header class="text-white body-font bg-gradient-to-r from-gray-800 to-gray-700 w-full">
+    <div class="container mx-auto flex flex-wrap p-5 justify-between items-center">
+      <nav class="flex flex-wrap justify-around w-full">  
+        <a href="index.html#home" class="nav-link hover:text-gray-200">Home</a>
+        <a href="index.html#about" class="nav-link hover:text-gray-200">About</a>
+        <a href="index.html#skill" class="nav-link hover:text-gray-200">Skills</a>
+        <a href="index.html#experience" class="nav-link hover:text-gray-200">Experiences</a>
+        <a href="contact.html" class="nav-link hover:text-gray-200">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+
+  <section id="about" class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded" alt="Anup Sharma" src="Untitled design.png">
+      </div>
+      <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h2 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hey! It's me Anup.</h2>
+        <h3 class="text-xl font-light text-gray-700">A Computer Engineering Student</h3>
+        <p class="justified-text">
+         <br> Hi! I'm Anup Sharma, a 19-year-old bachelor's student in Computer Engineering at Texas A&M International University.<br><br>
+        </p>
+        <p class="justified-text" class="mb-2">I possess a strong passion for coding and programming, evidenced by the significant time 
+          I dedicate to honing my coding skills. My initial interest in this field was sparked by a combination of formal classroom 
+          instruction and independent exploration through online resources such as FreeCodeCamp and Udemy during my high school. Driven by a continuous desire 
+          for knowledge and professional growth, I actively engage in consistent practice to refine my proficiency in HTML, CSS, and 
+          JavaScript.This dedication to self-improvement complements my rigorous university coursework.<br></p>
+        <p class="justified-text" class="mb-2"><br>Beyond coding, I actively participate in social activities and events to broaden my understanding of the world and enhance my communication and teamwork skills.<br><br></p>
+        <div class="flex justify-center">
+         <br><br> 
+         <button class="btn inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a href="index.html#skill">Skills</a></button>
+          <button class="btn ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><a href="contact.html">Contact Me</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+    <div class="mb-10">
+      <div class="h-2 bg-gray-200"></div>
+    </div>
+
+
+    <!--SKILLS-->    
+  <section id="skill" class="text-gray-600 body-font overflow-hidden mb-10">
+    <div class="flex justify-center">
+      <h2 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 experience-title">Skills</h2>
+    </div>
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+  
+        <div class="xl:w-1/3 md:w-1/2 p-4">
+          <div class="shadow-md bg-white rounded-lg p-6 flex items-center">
+            <i class="fas fa-code text-indigo-500 mr-4"></i>
+            <div>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Web Development</h2>
+              <p class="leading-relaxed text-base">Proficient in creating web page structure and interactivity using HTML, CSS, and JavaScript.</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="xl:w-1/3 md:w-1/2 p-4">
+          <div class="shadow-md bg-white rounded-lg p-6 flex items-center">
+            <i class="fas fa-code text-indigo-500 mr-4"></i>
+            <div>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">C & QBasic Programming</h2>
+              <p class="leading-relaxed text-base">Experience with foundational programming concepts using C and QBasic languages.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="xl:w-1/3 md:w-1/2 p-4">
+          <div class="shadow-md bg-white rounded-lg p-6 flex items-center">
+            <i class="fas fa-code text-indigo-500 mr-4"> </i>
+            <div>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">MS Office Suite</h2>
+              <p class="leading-relaxed text-base">Skilled in using MS Word, MS Excel, and MS PowerPoint for document creation, spreadsheets, and presentations.</p>
+            </div>
+          </div>
+      </div>
+  
+
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="shadow-md bg-white rounded-lg p-6 flex items-center">
+          <i class="fas fa-code text-indigo-500 mr-4"></i>
+            <div>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">General Computer Skills</h2>
+              <p class="leading-relaxed text-base">Proficient in editing files, printing, browsing the internet, using email (Gmail), and other basic computer tasks.</p>
+            </div>
+        </div>
+      </div>
+  
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="shadow-md bg-white rounded-lg p-6 flex items-center">
+          <i class="fas fa-code text-indigo-500 mr-4"></i>
+            <div>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Soft Skills</h2>
+              <p class="leading-relaxed text-base">Effective communication, strong leadership abilities, and a collaborative work ethic.</p>
+            </div>
+        </div>
+      </div>
+  
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="shadow-md bg-white rounded-lg p-6 flex items-center">
+          <i class="fas fa-code text-indigo-500 mr-4"></i>
+            <div>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Problem Solving & Innovation</h2>
+              <p class="leading-relaxed text-base">Skilled at approaching challenges creatively and finding effective solutions.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   
+<div class="mb-10">
+  <div class="h-2 bg-gray-200"></div>
+</div>
+
+<section id="experience" class="text-gray-600 body-font overflow-hidden mb-10">  
+  <div class="flex justify-center">
+    <h2 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 experience-title"> Experiences.</h2>
+  </div>
+  <div class="container px-5 py-24 mx-auto">
+    <div class="-my-8">
+    <div class="py-4 flex flex-wrap md:flex-nowrap">
+      <div class="md:w-72 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+        <span class="font-semibold title-font text-gray-700">Computer Science Teacher (Grades 4-8)</span>
+        <span class="mt-1 text-gray-500 text-sm">Sagarmatha Secondary Boarding School | Feb 2024 - June 2024</span>
+      </div>
+      <div class="md:flex-grow">
+        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Delivered curriculum for basic computer skills and software applications (MS-Word, MS-Excel, MS-PowerPoint)</h2>
+        <p class="justified-text leading-relaxed">I served as a computer science and HPE teacher at Sagarmatha Secondary Boarding School. In addition to my classroom duties, I delivered curriculum for basic computer skills and software applications such as MS-Word, MS-Excel, and MS-PowerPoint within the school's computer lab.</p>
+      </div>
+    </div>
+    <div class="py-4 flex flex-wrap md:flex-nowrap">
+      <div class="md:w-72 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+        <span class="font-semibold title-font text-gray-700">High School Leadership & Mentorship</span>
+        <span class="mt-1 text-gray-500 text-sm">New Capital Secondary School | 2021-2023</span>
+      </div>
+      <div class="md:flex-grow">
+        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Science and Math Club Captain & Student Mentor</h2>
+        <p class="justified-text leading-relaxed">
+          1. Led the Science and Math Club as Captain, developing and managing projects for the science exhibition 2023.<br>
+          2. Mentored younger students, providing academic and emotional guidance.<br>
+          3. Hosted, Organized, and Coordinated various school events, including the Welcome Program for new students at NCSS in 2022, Teacher's Day Celebration, and other academic events.
+        </p>
+      </div>
+    </div>
+    <div class="py-4 flex flex-col md:flex-nowrap">
+      <div class="md:w-72 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+        <span class="font-semibold title-font text-gray-700">Active Participation</span>
+        <span class="mt-1 text-gray-500 text-sm">2023</span>
+      </div>
+      <div class="md:flex-grow">
+        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">OSM Hackfest & FUTURAMA Competition</h2>
+        <p class="leading-relaxed">
+          1. Participated in the OSM Hackfest 2023 where I developed a small computer-related project, honing my coding and teamwork abilities.<br>
+          2. Selected as a Project Ambassador, presenting the "Smart-House" project to a diverse audience of students from various Chitwan schools.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<div class="mb-10">
+  <div class="h-2 bg-gray-200"></div>
+</div>
+    
+<footer class="text-gray-600 body-font bg-gray-800">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+      <span class="ml-3 text-xl">Anup Sharma</span>
+    </a>
+    <p class="text-sm text-gray-200 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-400 sm:py-2 sm:mt-0 mt-4">© 2024 Anup Sharma —
+      <a href="https://www.facebook.com/sumit.acharya.7330/" class="text-gray-400 ml-1 footer-link" rel="noopener noreferrer" target="_blank">@acharya_anup</a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a href="https://www.facebook.com/sumit.acharya.7330/" class="text-gray-200 hover:text-indigo-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-200 hover:text-indigo-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/its_anupacharya" class="ml-3 text-gray-200 hover:text-indigo-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/anup-sharma-22b36b28b/" class="ml-3 text-gray-200 hover:text-indigo-500">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+</body>
+</html>
